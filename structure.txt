@@ -1,0 +1,8 @@
+############ PROJETO POKEDEX 2.0 ##############
+
+
+Ideia: 
+1. Extrair dados de vários pokémons da API
+2. Tranformar dados em dicionario com dados tratados
+3. Salvar dados em um .json, para reutilização
+4. Gero estátisticas, relatórios e informações
