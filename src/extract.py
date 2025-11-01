@@ -23,16 +23,3 @@ def colect_pokemon_data(numberOfPokemons):
             raise requests.exceptions.ConnectionError("Erro de conexão com o Servidor")
     return pokemonsList
 
-re = colect_pokemon_data(2)
-d = {}
-tipos = []
-for valor in re:
-    for valor in valor['types']:
-        print(valor)
-print(d)
-
-# f"{r[0]['stat']['name']}": r[0]['base_stat'],
-# print(r[0]['base_stat'])
-# print(r[0]['stat']['name'])
-# print(r[1]['base_stat'])
-# print(r[1]['stat']['name'])
