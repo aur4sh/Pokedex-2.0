@@ -5,16 +5,20 @@ from utils.Translations import PTBR_TYPES
 # Informando os dados relevantes do pokémon
 
 def processedPokemonData(pokemonList):
+    ''' Recebe os dados Extraidos da pokeAPI, filtra os relevantes,
+            transforma strings e converte valores, adicionando tudo
+                a um dicionario com daddos transformados e filtrados
+       '''
     pokemonsDict = {}
     typesCounter = 0
     for rawData in pokemonList:
         pokemonsDict[f"{rawData['id']}"] = {
             'Nome': f"{rawData['name']}",
-            'Peso': f"{rawData['weight']}",
-            'Altura': f"{rawData['height']}",
+            'Peso': f"{int(rawData['weight']) / 10}",
+            'Altura': f"{int(rawData['height']) / 10}",
             'Tipos': [],
             'Stats': {
-
+                
             }
         }
         for stat in rawData['stats']:
