@@ -1,0 +1,38 @@
+# Funções para carregamento dos dados processados e crús dentro de um arquivo json
+# Função para cache local, carregando dados que já estão salvos
+
+from pathlib import Path
+import json
+from time import sleep
+
+
+processedPokemonFolder = Path(__file__).parents[1] / "data/processed/pokedex.json"
+rawPokemonFolder = Path(__file__).parents[1] / "data/raw/rawPokemonInfo.json"
+
+processedPokemonFolder.parent.mkdir(parents=True, exist_ok=True)
+rawPokemonFolder.parent.mkdir(parents=True, exist_ok=True)
+
+def saveProcessedPokemonData(pokemonsDict):
+    ''' Recebe o dicionario transformado e processado 
+            Armazena ele em um arquivo json '''
+    print(f"Salvando dados processados para --> {processedPokemonFolder}")
+    sleep(2)
+    print()
+    with open(processedPokemonFolder, 'w', encoding='UTF-8') as pokeArq:
+        json.dump(pokemonsDict, pokeArq, indent=4, ensure_ascii=False)
+    
+def saveRawPokemonData(pokemonsList):
+    ''' Recebe lista não processada e transformada
+        E armazena em um json '''
+    print(f"Salvando dados crús para --> {rawPokemonFolder}")
+    sleep(2)
+    with open(rawPokemonFolder, 'w', encoding='UTF-8') as rawPokeArq:
+        json.dump(pokemonsList, rawPokeArq, indent=4, ensure_ascii=False)
+
+def loadPokemonData():
+    '''Carrega dados já salvos previamente'''
+    print("Carregando dados existentes. . .")
+    print()
+    with open(processedPokemonFolder, 'r', encoding='UTF-8') as pokedex:
+        savedPokemonData = json.load(pokedex)
+    return savedPokemonData

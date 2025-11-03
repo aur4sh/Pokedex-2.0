@@ -1,5 +1,4 @@
-from utils.Translations import PTBR_STATS_LIST
-from utils.Translations import PTBR_TYPES
+from src.utils.Translations import *
 
 # Transformar dados coletados em um dicionario estruturado e limpo
 # Informando os dados relevantes do pokémon
