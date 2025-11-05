@@ -1,5 +1,6 @@
 # Funções para carregamento dos dados processados e crús dentro de um arquivo json
 # Função para cache local, carregando dados que já estão salvos
+# Função para atualização do cache, usada para adicionar novos valores sem repetir requisições a API
 
 from pathlib import Path
 import json
@@ -36,3 +37,23 @@ def loadPokemonData():
     with open(processedPokemonFolder, 'r', encoding='UTF-8') as pokedex:
         savedPokemonData = json.load(pokedex)
     return savedPokemonData
+
+def updatePokemonData(newPokemonData):
+    '''Recebe os novos dados a ser integrados, apenas adicionando eles
+            sem repetir todos os processos de reescrita no json'''
+    print("Atualizando dados do Cache. . .")
+    sleep(1.5)
+    with open(processedPokemonFolder, 'r', encoding='UTF-8') as pokedex:
+        loadedPokemonData = json.load(pokedex)
+
+    with open(processedPokemonFolder, 'w', encoding='UTF-8') as updatedPokedexArq:
+        for chave, valor in newPokemonData.items():
+            loadedPokemonData[f'{chave}'] = {
+                'Nome': valor['Nome'],
+                'Peso': valor['Peso'],
+                'Altura': valor['Altura'],
+                'Tipos': valor['Tipos'],
+                'Stats': valor['Stats'],
+            }
+        json.dump(loadedPokemonData, updatedPokedexArq, indent=4, ensure_ascii=False)
+    print("Dados salvos com sucesso :)")
