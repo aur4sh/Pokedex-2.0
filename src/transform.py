@@ -13,8 +13,8 @@ def processedPokemonData(pokemonList):
     for rawData in pokemonList:
         pokemonsDict[f"{rawData['id']}"] = {
             'Nome': f"{rawData['name']}",
-            'Peso': f"{int(rawData['weight']) / 10}",
-            'Altura': f"{int(rawData['height']) / 10}",
+            'Peso': float(f"{rawData['weight'] / 10:.2f}"),
+            'Altura': float(f"{rawData['height'] / 10:.2f}"),
             'Tipos': [],
             'Stats': {
                 

@@ -1,8 +1,8 @@
 {
     "1": {
         "Nome": "bulbasaur",
-        "Peso": "6.9",
-        "Altura": "0.7",
+        "Peso": 6.9,
+        "Altura": 0.7,
         "Tipos": [
             "Grama",
             "Veneno"
@@ -18,8 +18,8 @@
     },
     "2": {
         "Nome": "ivysaur",
-        "Peso": "13.0",
-        "Altura": "1.0",
+        "Peso": 13.0,
+        "Altura": 1.0,
         "Tipos": [
             "Grama",
             "Veneno"
@@ -35,8 +35,8 @@
     },
     "3": {
         "Nome": "venusaur",
-        "Peso": "100.0",
-        "Altura": "2.0",
+        "Peso": 100.0,
+        "Altura": 2.0,
         "Tipos": [
             "Grama",
             "Veneno"
@@ -52,8 +52,8 @@
     },
     "4": {
         "Nome": "charmander",
-        "Peso": "8.5",
-        "Altura": "0.6",
+        "Peso": 8.5,
+        "Altura": 0.6,
         "Tipos": [
             "Fogo"
         ],
@@ -68,8 +68,8 @@
     },
     "5": {
         "Nome": "charmeleon",
-        "Peso": "19.0",
-        "Altura": "1.1",
+        "Peso": 19.0,
+        "Altura": 1.1,
         "Tipos": [
             "Fogo"
         ],
@@ -84,8 +84,8 @@
     },
     "6": {
         "Nome": "charizard",
-        "Peso": "90.5",
-        "Altura": "1.7",
+        "Peso": 90.5,
+        "Altura": 1.7,
         "Tipos": [
             "Fogo",
             "Voador"
@@ -101,8 +101,8 @@
     },
     "7": {
         "Nome": "squirtle",
-        "Peso": "9.0",
-        "Altura": "0.5",
+        "Peso": 9.0,
+        "Altura": 0.5,
         "Tipos": [
             "Água"
         ],
@@ -117,8 +117,8 @@
     },
     "8": {
         "Nome": "wartortle",
-        "Peso": "22.5",
-        "Altura": "1.0",
+        "Peso": 22.5,
+        "Altura": 1.0,
         "Tipos": [
             "Água"
         ],
@@ -133,8 +133,8 @@
     },
     "9": {
         "Nome": "blastoise",
-        "Peso": "85.5",
-        "Altura": "1.6",
+        "Peso": 85.5,
+        "Altura": 1.6,
         "Tipos": [
             "Água"
         ],
@@ -149,8 +149,8 @@
     },
     "10": {
         "Nome": "caterpie",
-        "Peso": "2.9",
-        "Altura": "0.3",
+        "Peso": 2.9,
+        "Altura": 0.3,
         "Tipos": [
             "Inseto"
         ],
@@ -165,8 +165,8 @@
     },
     "11": {
         "Nome": "metapod",
-        "Peso": "9.9",
-        "Altura": "0.7",
+        "Peso": 9.9,
+        "Altura": 0.7,
         "Tipos": [
             "Inseto"
         ],
@@ -177,732 +177,6 @@
             "Ataque Especial": 25,
             "Defesa Especial": 25,
             "Velocidade": 30
-        }
-    },
-    "12": {
-        "Nome": "butterfree",
-        "Peso": "32.0",
-        "Altura": "1.1",
-        "Tipos": [
-            "Inseto",
-            "Voador"
-        ],
-        "Stats": {
-            "HP": 60,
-            "Ataque": 45,
-            "Defesa": 50,
-            "Ataque Especial": 90,
-            "Defesa Especial": 80,
-            "Velocidade": 70
-        }
-    },
-    "13": {
-        "Nome": "weedle",
-        "Peso": "3.2",
-        "Altura": "0.3",
-        "Tipos": [
-            "Inseto",
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 40,
-            "Ataque": 35,
-            "Defesa": 30,
-            "Ataque Especial": 20,
-            "Defesa Especial": 20,
-            "Velocidade": 50
-        }
-    },
-    "14": {
-        "Nome": "kakuna",
-        "Peso": "10.0",
-        "Altura": "0.6",
-        "Tipos": [
-            "Inseto",
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 45,
-            "Ataque": 25,
-            "Defesa": 50,
-            "Ataque Especial": 25,
-            "Defesa Especial": 25,
-            "Velocidade": 35
-        }
-    },
-    "15": {
-        "Nome": "beedrill",
-        "Peso": "29.5",
-        "Altura": "1.0",
-        "Tipos": [
-            "Inseto",
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 65,
-            "Ataque": 90,
-            "Defesa": 40,
-            "Ataque Especial": 45,
-            "Defesa Especial": 80,
-            "Velocidade": 75
-        }
-    },
-    "16": {
-        "Nome": "pidgey",
-        "Peso": "1.8",
-        "Altura": "0.3",
-        "Tipos": [
-            "Normal",
-            "Voador"
-        ],
-        "Stats": {
-            "HP": 40,
-            "Ataque": 45,
-            "Defesa": 40,
-            "Ataque Especial": 35,
-            "Defesa Especial": 35,
-            "Velocidade": 56
-        }
-    },
-    "17": {
-        "Nome": "pidgeotto",
-        "Peso": "30.0",
-        "Altura": "1.1",
-        "Tipos": [
-            "Normal",
-            "Voador"
-        ],
-        "Stats": {
-            "HP": 63,
-            "Ataque": 60,
-            "Defesa": 55,
-            "Ataque Especial": 50,
-            "Defesa Especial": 50,
-            "Velocidade": 71
-        }
-    },
-    "18": {
-        "Nome": "pidgeot",
-        "Peso": "39.5",
-        "Altura": "1.5",
-        "Tipos": [
-            "Normal",
-            "Voador"
-        ],
-        "Stats": {
-            "HP": 83,
-            "Ataque": 80,
-            "Defesa": 75,
-            "Ataque Especial": 70,
-            "Defesa Especial": 70,
-            "Velocidade": 101
-        }
-    },
-    "19": {
-        "Nome": "rattata",
-        "Peso": "3.5",
-        "Altura": "0.3",
-        "Tipos": [
-            "Normal"
-        ],
-        "Stats": {
-            "HP": 30,
-            "Ataque": 56,
-            "Defesa": 35,
-            "Ataque Especial": 25,
-            "Defesa Especial": 35,
-            "Velocidade": 72
-        }
-    },
-    "20": {
-        "Nome": "raticate",
-        "Peso": "18.5",
-        "Altura": "0.7",
-        "Tipos": [
-            "Normal"
-        ],
-        "Stats": {
-            "HP": 55,
-            "Ataque": 81,
-            "Defesa": 60,
-            "Ataque Especial": 50,
-            "Defesa Especial": 70,
-            "Velocidade": 97
-        }
-    },
-    "21": {
-        "Nome": "spearow",
-        "Peso": "2.0",
-        "Altura": "0.3",
-        "Tipos": [
-            "Normal",
-            "Voador"
-        ],
-        "Stats": {
-            "HP": 40,
-            "Ataque": 60,
-            "Defesa": 30,
-            "Ataque Especial": 31,
-            "Defesa Especial": 31,
-            "Velocidade": 70
-        }
-    },
-    "22": {
-        "Nome": "fearow",
-        "Peso": "38.0",
-        "Altura": "1.2",
-        "Tipos": [
-            "Normal",
-            "Voador"
-        ],
-        "Stats": {
-            "HP": 65,
-            "Ataque": 90,
-            "Defesa": 65,
-            "Ataque Especial": 61,
-            "Defesa Especial": 61,
-            "Velocidade": 100
-        }
-    },
-    "23": {
-        "Nome": "ekans",
-        "Peso": "6.9",
-        "Altura": "2.0",
-        "Tipos": [
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 35,
-            "Ataque": 60,
-            "Defesa": 44,
-            "Ataque Especial": 40,
-            "Defesa Especial": 54,
-            "Velocidade": 55
-        }
-    },
-    "24": {
-        "Nome": "arbok",
-        "Peso": "65.0",
-        "Altura": "3.5",
-        "Tipos": [
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 60,
-            "Ataque": 95,
-            "Defesa": 69,
-            "Ataque Especial": 65,
-            "Defesa Especial": 79,
-            "Velocidade": 80
-        }
-    },
-    "25": {
-        "Nome": "pikachu",
-        "Peso": "6.0",
-        "Altura": "0.4",
-        "Tipos": [
-            "Elétrico"
-        ],
-        "Stats": {
-            "HP": 35,
-            "Ataque": 55,
-            "Defesa": 40,
-            "Ataque Especial": 50,
-            "Defesa Especial": 50,
-            "Velocidade": 90
-        }
-    },
-    "26": {
-        "Nome": "raichu",
-        "Peso": "30.0",
-        "Altura": "0.8",
-        "Tipos": [
-            "Elétrico"
-        ],
-        "Stats": {
-            "HP": 60,
-            "Ataque": 90,
-            "Defesa": 55,
-            "Ataque Especial": 90,
-            "Defesa Especial": 80,
-            "Velocidade": 110
-        }
-    },
-    "27": {
-        "Nome": "sandshrew",
-        "Peso": "12.0",
-        "Altura": "0.6",
-        "Tipos": [
-            "Terra"
-        ],
-        "Stats": {
-            "HP": 50,
-            "Ataque": 75,
-            "Defesa": 85,
-            "Ataque Especial": 20,
-            "Defesa Especial": 30,
-            "Velocidade": 40
-        }
-    },
-    "28": {
-        "Nome": "sandslash",
-        "Peso": "29.5",
-        "Altura": "1.0",
-        "Tipos": [
-            "Terra"
-        ],
-        "Stats": {
-            "HP": 75,
-            "Ataque": 100,
-            "Defesa": 110,
-            "Ataque Especial": 45,
-            "Defesa Especial": 55,
-            "Velocidade": 65
-        }
-    },
-    "29": {
-        "Nome": "nidoran-f",
-        "Peso": "7.0",
-        "Altura": "0.4",
-        "Tipos": [
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 55,
-            "Ataque": 47,
-            "Defesa": 52,
-            "Ataque Especial": 40,
-            "Defesa Especial": 40,
-            "Velocidade": 41
-        }
-    },
-    "30": {
-        "Nome": "nidorina",
-        "Peso": "20.0",
-        "Altura": "0.8",
-        "Tipos": [
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 70,
-            "Ataque": 62,
-            "Defesa": 67,
-            "Ataque Especial": 55,
-            "Defesa Especial": 55,
-            "Velocidade": 56
-        }
-    },
-    "31": {
-        "Nome": "nidoqueen",
-        "Peso": "60.0",
-        "Altura": "1.3",
-        "Tipos": [
-            "Veneno",
-            "Terra"
-        ],
-        "Stats": {
-            "HP": 90,
-            "Ataque": 92,
-            "Defesa": 87,
-            "Ataque Especial": 75,
-            "Defesa Especial": 85,
-            "Velocidade": 76
-        }
-    },
-    "32": {
-        "Nome": "nidoran-m",
-        "Peso": "9.0",
-        "Altura": "0.5",
-        "Tipos": [
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 46,
-            "Ataque": 57,
-            "Defesa": 40,
-            "Ataque Especial": 40,
-            "Defesa Especial": 40,
-            "Velocidade": 50
-        }
-    },
-    "33": {
-        "Nome": "nidorino",
-        "Peso": "19.5",
-        "Altura": "0.9",
-        "Tipos": [
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 61,
-            "Ataque": 72,
-            "Defesa": 57,
-            "Ataque Especial": 55,
-            "Defesa Especial": 55,
-            "Velocidade": 65
-        }
-    },
-    "34": {
-        "Nome": "nidoking",
-        "Peso": "62.0",
-        "Altura": "1.4",
-        "Tipos": [
-            "Veneno",
-            "Terra"
-        ],
-        "Stats": {
-            "HP": 81,
-            "Ataque": 102,
-            "Defesa": 77,
-            "Ataque Especial": 85,
-            "Defesa Especial": 75,
-            "Velocidade": 85
-        }
-    },
-    "35": {
-        "Nome": "clefairy",
-        "Peso": "7.5",
-        "Altura": "0.6",
-        "Tipos": [
-            "Fada"
-        ],
-        "Stats": {
-            "HP": 70,
-            "Ataque": 45,
-            "Defesa": 48,
-            "Ataque Especial": 60,
-            "Defesa Especial": 65,
-            "Velocidade": 35
-        }
-    },
-    "36": {
-        "Nome": "clefable",
-        "Peso": "40.0",
-        "Altura": "1.3",
-        "Tipos": [
-            "Fada"
-        ],
-        "Stats": {
-            "HP": 95,
-            "Ataque": 70,
-            "Defesa": 73,
-            "Ataque Especial": 95,
-            "Defesa Especial": 90,
-            "Velocidade": 60
-        }
-    },
-    "37": {
-        "Nome": "vulpix",
-        "Peso": "9.9",
-        "Altura": "0.6",
-        "Tipos": [
-            "Fogo"
-        ],
-        "Stats": {
-            "HP": 38,
-            "Ataque": 41,
-            "Defesa": 40,
-            "Ataque Especial": 50,
-            "Defesa Especial": 65,
-            "Velocidade": 65
-        }
-    },
-    "38": {
-        "Nome": "ninetales",
-        "Peso": "19.9",
-        "Altura": "1.1",
-        "Tipos": [
-            "Fogo"
-        ],
-        "Stats": {
-            "HP": 73,
-            "Ataque": 76,
-            "Defesa": 75,
-            "Ataque Especial": 81,
-            "Defesa Especial": 100,
-            "Velocidade": 100
-        }
-    },
-    "39": {
-        "Nome": "jigglypuff",
-        "Peso": "5.5",
-        "Altura": "0.5",
-        "Tipos": [
-            "Normal",
-            "Fada"
-        ],
-        "Stats": {
-            "HP": 115,
-            "Ataque": 45,
-            "Defesa": 20,
-            "Ataque Especial": 45,
-            "Defesa Especial": 25,
-            "Velocidade": 20
-        }
-    },
-    "40": {
-        "Nome": "wigglytuff",
-        "Peso": "12.0",
-        "Altura": "1.0",
-        "Tipos": [
-            "Normal",
-            "Fada"
-        ],
-        "Stats": {
-            "HP": 140,
-            "Ataque": 70,
-            "Defesa": 45,
-            "Ataque Especial": 85,
-            "Defesa Especial": 50,
-            "Velocidade": 45
-        }
-    },
-    "41": {
-        "Nome": "zubat",
-        "Peso": "7.5",
-        "Altura": "0.8",
-        "Tipos": [
-            "Veneno",
-            "Voador"
-        ],
-        "Stats": {
-            "HP": 40,
-            "Ataque": 45,
-            "Defesa": 35,
-            "Ataque Especial": 30,
-            "Defesa Especial": 40,
-            "Velocidade": 55
-        }
-    },
-    "42": {
-        "Nome": "golbat",
-        "Peso": "55.0",
-        "Altura": "1.6",
-        "Tipos": [
-            "Veneno",
-            "Voador"
-        ],
-        "Stats": {
-            "HP": 75,
-            "Ataque": 80,
-            "Defesa": 70,
-            "Ataque Especial": 65,
-            "Defesa Especial": 75,
-            "Velocidade": 90
-        }
-    },
-    "43": {
-        "Nome": "oddish",
-        "Peso": "5.4",
-        "Altura": "0.5",
-        "Tipos": [
-            "Grama",
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 45,
-            "Ataque": 50,
-            "Defesa": 55,
-            "Ataque Especial": 75,
-            "Defesa Especial": 65,
-            "Velocidade": 30
-        }
-    },
-    "44": {
-        "Nome": "gloom",
-        "Peso": "8.6",
-        "Altura": "0.8",
-        "Tipos": [
-            "Grama",
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 60,
-            "Ataque": 65,
-            "Defesa": 70,
-            "Ataque Especial": 85,
-            "Defesa Especial": 75,
-            "Velocidade": 40
-        }
-    },
-    "45": {
-        "Nome": "vileplume",
-        "Peso": "18.6",
-        "Altura": "1.2",
-        "Tipos": [
-            "Grama",
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 75,
-            "Ataque": 80,
-            "Defesa": 85,
-            "Ataque Especial": 110,
-            "Defesa Especial": 90,
-            "Velocidade": 50
-        }
-    },
-    "46": {
-        "Nome": "paras",
-        "Peso": "5.4",
-        "Altura": "0.3",
-        "Tipos": [
-            "Inseto",
-            "Grama"
-        ],
-        "Stats": {
-            "HP": 35,
-            "Ataque": 70,
-            "Defesa": 55,
-            "Ataque Especial": 45,
-            "Defesa Especial": 55,
-            "Velocidade": 25
-        }
-    },
-    "47": {
-        "Nome": "parasect",
-        "Peso": "29.5",
-        "Altura": "1.0",
-        "Tipos": [
-            "Inseto",
-            "Grama"
-        ],
-        "Stats": {
-            "HP": 60,
-            "Ataque": 95,
-            "Defesa": 80,
-            "Ataque Especial": 60,
-            "Defesa Especial": 80,
-            "Velocidade": 30
-        }
-    },
-    "48": {
-        "Nome": "venonat",
-        "Peso": "30.0",
-        "Altura": "1.0",
-        "Tipos": [
-            "Inseto",
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 60,
-            "Ataque": 55,
-            "Defesa": 50,
-            "Ataque Especial": 40,
-            "Defesa Especial": 55,
-            "Velocidade": 45
-        }
-    },
-    "49": {
-        "Nome": "venomoth",
-        "Peso": "12.5",
-        "Altura": "1.5",
-        "Tipos": [
-            "Inseto",
-            "Veneno"
-        ],
-        "Stats": {
-            "HP": 70,
-            "Ataque": 65,
-            "Defesa": 60,
-            "Ataque Especial": 90,
-            "Defesa Especial": 75,
-            "Velocidade": 90
-        }
-    },
-    "50": {
-        "Nome": "diglett",
-        "Peso": "0.8",
-        "Altura": "0.2",
-        "Tipos": [
-            "Terra"
-        ],
-        "Stats": {
-            "HP": 10,
-            "Ataque": 55,
-            "Defesa": 25,
-            "Ataque Especial": 35,
-            "Defesa Especial": 45,
-            "Velocidade": 95
-        }
-    },
-    "51": {
-        "Nome": "dugtrio",
-        "Peso": "33.3",
-        "Altura": "0.7",
-        "Tipos": [
-            "Terra"
-        ],
-        "Stats": {
-            "HP": 35,
-            "Ataque": 100,
-            "Defesa": 50,
-            "Ataque Especial": 50,
-            "Defesa Especial": 70,
-            "Velocidade": 120
-        }
-    },
-    "52": {
-        "Nome": "meowth",
-        "Peso": "4.2",
-        "Altura": "0.4",
-        "Tipos": [
-            "Normal"
-        ],
-        "Stats": {
-            "HP": 40,
-            "Ataque": 45,
-            "Defesa": 35,
-            "Ataque Especial": 40,
-            "Defesa Especial": 40,
-            "Velocidade": 90
-        }
-    },
-    "53": {
-        "Nome": "persian",
-        "Peso": "32.0",
-        "Altura": "1.0",
-        "Tipos": [
-            "Normal"
-        ],
-        "Stats": {
-            "HP": 65,
-            "Ataque": 70,
-            "Defesa": 60,
-            "Ataque Especial": 65,
-            "Defesa Especial": 65,
-            "Velocidade": 115
-        }
-    },
-    "54": {
-        "Nome": "psyduck",
-        "Peso": "19.6",
-        "Altura": "0.8",
-        "Tipos": [
-            "Água"
-        ],
-        "Stats": {
-            "HP": 50,
-            "Ataque": 52,
-            "Defesa": 48,
-            "Ataque Especial": 65,
-            "Defesa Especial": 50,
-            "Velocidade": 55
-        }
-    },
-    "55": {
-        "Nome": "golduck",
-        "Peso": "76.6",
-        "Altura": "1.7",
-        "Tipos": [
-            "Água"
-        ],
-        "Stats": {
-            "HP": 80,
-            "Ataque": 82,
-            "Defesa": 78,
-            "Ataque Especial": 95,
-            "Defesa Especial": 80,
-            "Velocidade": 85
         }
     }
 }

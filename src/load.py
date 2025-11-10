@@ -8,7 +8,7 @@ from time import sleep
 
 
 processedPokemonFolder = Path(__file__).parents[1] / "data/processed/pokedex.json"
-rawPokemonFolder = Path(__file__).parents[1] / "data/raw/rawPokemonInfo.json"
+rawPokemonFolder = Path(__file__).parents[1] / "data/raw/rawPokemonInfo.jsonl"
 
 processedPokemonFolder.parent.mkdir(parents=True, exist_ok=True)
 rawPokemonFolder.parent.mkdir(parents=True, exist_ok=True)
@@ -27,8 +27,10 @@ def saveRawPokemonData(pokemonsList):
         E armazena em um json '''
     print(f"Salvando dados crús para --> {rawPokemonFolder}")
     sleep(2)
-    with open(rawPokemonFolder, 'w', encoding='UTF-8') as rawPokeArq:
-        json.dump(pokemonsList, rawPokeArq, indent=4, ensure_ascii=False)
+    with open(rawPokemonFolder, 'a', encoding='UTF-8') as rawPokeArq:
+        for pokemon in pokemonsList:
+            json.dump(pokemon, rawPokeArq, ensure_ascii=False)
+            rawPokeArq.write("\n")
 
 def loadPokemonData():
     '''Carrega dados já salvos previamente'''
@@ -57,3 +59,11 @@ def updatePokemonData(newPokemonData):
             }
         json.dump(loadedPokemonData, updatedPokedexArq, indent=4, ensure_ascii=False)
     print("Dados salvos com sucesso :)")
+
+def updatePokemonRawData(rawDataList):
+    ''' Atualiza o arquivo dos dados não processados
+     utilizando os dados dos pokemons novos adicionaddos '''
+    with open(rawPokemonFolder, 'a', encoding='UTF-8') as updatedRawData:
+        for newRawPokemon in rawDataList:
+            json.dump(newRawPokemon, updatedRawData, ensure_ascii=False)
+            updatedRawData.write("\n")
